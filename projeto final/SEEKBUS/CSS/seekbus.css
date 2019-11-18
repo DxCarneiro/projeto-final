@@ -1,0 +1,155 @@
+
+body{
+     background-image: url(../IMG/fotoeditada.jpg);
+     background-size: 100%; 
+     background-attachment: fixed;
+
+    
+     
+}
+
+.titulo{
+      text-shadow: 3px 3px 2px #D3D3D3;
+      color: rgb(77, 180, 221);
+      text-align: center;
+      margin-top: 170px;
+      font-family: 'Faster One', cursive;
+      font-size: 100px;
+      opacity: 0.8;
+ }
+
+ .busca {
+      width: 460px;
+      height: 30px;
+      font-family: 'Hind Vadodara', sans-serif;
+      font-size: 20px;
+      border: 1px solid;
+      border-color:white;
+      border-radius: 10px;
+      margin-left: 30px;
+      box-shadow: 1px 1px 8px #999;
+      
+ }
+
+ .ajuda{
+     font-family: 'Hind Vadodara', sans-serif;
+     color: white;
+     opacity: 1;
+     text-shadow: 1px 1px 8px black;
+     font-size: 15px;
+     padding-right: 0px;
+     padding-top: 80px;
+ }
+
+ .miramakers{
+     font-family: 'Hind Vadodara', sans-serif;
+     color: white;
+     opacity: 1;
+     text-shadow: 1px 1px 8px black;
+     font-size: 13px;
+     padding-top: 206px;
+     padding-left: 1000px;
+     overflow: hidden;
+ }
+
+ .administrador{
+    margin-left: 1150px;
+    margin-top: -40px;
+    overflow: hidden;
+  
+}
+
+.sobrenos {
+    height: 1000px;
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#E8E8E8;
+    box-shadow: 1px 1px 10px black;
+    background-color: #E8E8E8;
+
+ }
+
+ .texto{
+     color: black;
+     font-family: 'Hind Vadodara', sans-serif;
+     font-size: 20px;
+ }
+
+ .clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu,
+.sub-menu {
+    list-style: none;
+    background: rgb(77, 180, 221);
+    opacity: 0.7;
+    
+}
+.sub-menu {
+    background: rgb(77, 180, 221);
+    opacity: 1;
+    
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.9;
+    padding-top: 10px;
+     
+   
+}
+.menu li {
+    position: relative;
+    
+}
+.menu > li {
+    
+    float: left;
+}
+.menu > li:hover {
+    background: rgb(77, 180, 221);
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    margin-left: 0px;
+}
+.sub-menu li:hover {
+    background: rgb(77, 180, 221);
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+
+.sobre {
+    margin-top: -40px;
+    margin-left: 75px;
+}
+
+.faleconosco {
+    margin-top: -40px;
+    margin-left: 255px;
+}
+
+.equipe {
+    margin-top: -40px;
+    margin-left: 165px;
+}

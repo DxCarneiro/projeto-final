@@ -1,0 +1,169 @@
+body {
+    background-image: url(../IMG/fotoeditada.jpg);
+    background-size: 100%; 
+    background-attachment: fixed;   
+  }
+.tituloborda{
+    margin-top: 15px;
+    font-family: monospace;
+    
+}
+.bordapai{
+    margin-top: 60px;
+    height: 500px;
+    width: 1050px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 10px  #CFCFCF;
+    background-color: white;
+}
+
+.bordafilho1{
+    margin-top: 40px;
+    margin-left: 35px;
+    float: left;
+    height:370px;
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 10px #CFCFCF;
+    background: white ;
+}
+.bordafilho2{
+   margin-top: 40px;
+   margin-left: 40px;
+   float: left;
+   height:370px;
+   width: 300px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: white;
+   box-shadow: 1px 1px 10px #CFCFCF;
+   background: white ;
+}
+.bordafilho3{
+   margin-top: 40px;
+   margin-left: 40px;
+   float: left;
+   height:370px;
+   width: 300px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: white;
+   box-shadow: 1px 1px 10px #CFCFCF;
+   background: white ;
+}
+  .miramakers{
+    font-family: 'Hind Vadodara', sans-serif;
+    color: white;
+    opacity: 1;
+    text-shadow: 1px 1px 8px black;
+    font-size: 13px;
+    padding-top: 206px;
+    padding-left: 1000px;
+    overflow: hidden;
+}
+
+.administrador{
+   margin-left: 1150px;
+   margin-top: -40px;
+   overflow: hidden;
+ 
+}
+
+.sobrenos {
+   height: 1000px;
+   width: 1000px;
+   border-width: 2px;
+   border-style: solid;
+   border-color:#E8E8E8;
+   box-shadow: 1px 1px 10px black;
+   background-color: #E8E8E8;
+
+}
+
+.texto{
+    color: black;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 20px;
+}
+
+.clearfix:after{
+   content: '.';
+   display: block;
+   clear: both;
+   height: 0;
+   line-height: 0;
+   font-size: 0;
+   visibility: hidden;
+   overflow: hidden;
+}
+.menu,
+.sub-menu {
+   list-style: none;
+   background: rgb(77, 180, 221);
+   opacity: 0.7;
+   
+}
+.sub-menu {
+   background: rgb(77, 180, 221);
+   opacity: 1;
+   
+}
+.menu a {
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   color: #fff;
+   font-family: sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 700;
+   opacity: 0.9;
+   padding-top: 10px;
+    
+  
+}
+.menu li {
+   position: relative;
+   
+}
+.menu > li {
+   
+   float: left;
+}
+.menu > li:hover {
+   background: rgb(77, 180, 221);
+}
+.menu li:hover > .sub-menu {
+   display: block;
+}
+.sub-menu {
+   display: none;
+   position: absolute;
+   margin-left: 0px;
+}
+.sub-menu li:hover {
+   background: rgb(77, 180, 221);
+}
+.sub-menu .sub-menu {
+   top: 0;
+   left: 100%;
+}
+
+.sobre {
+   margin-top: -40px;
+   margin-left: 75px;
+}
+
+.faleconosco {
+   margin-top: -40px;
+   margin-left: 255px;
+}
+
+.equipe {
+   margin-top: -40px;
+   margin-left: 165px;
+}

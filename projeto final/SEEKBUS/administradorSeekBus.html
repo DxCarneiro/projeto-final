@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<center>
+  <!doctype html>
+  <html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Essa tag é importante -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+    <!-- Arquivos do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Minha folha de Estilos -->
+    <link rel="stylesheet" href="CSS/administrador.css">
+    <!-- Meu arquivo de scripts -->
+    <script src="JS/administrador.js"></script>
+    <title>Administrador</title>
+  </head>
+
+  <body>
+    <div class="menu-container">
+      <ul class="menu clearfix">
+        <li><a href="index.html">Home</a>
+          <ul class="sub-menu clearfix">
+            <li><a href="sobre.html">Sobre</a>
+            <li><a href="#">Equipe</a>
+              <ul class="sub-menu">
+                <ul class="sub-menu">
+                </ul>
+            </li>
+          </ul>
+      </ul>
+      </li>
+      <li><a class="administrador" href="administradorSeekBus.html">Administrador</a></li>
+      <li><a class="sobre" href="sobre.html">Sobre</a>
+      <li><a class="equipe" href="equipe.html">Equipe</a>
+      <li><a class="faleconosco" href="formularioSeekBus.html" target="_blank">Fale Conosco</a></li>
+      </ul>
+    </div>
+    <!-- Aqui é a mensagem de sucesso de login escondida, onde vamos exibir no momento de validação -->
+
+    <div id="sucessoLogin" class="row">
+      <div class="alert alert-success">Login efetuado com sucesso. Redirecionando...</div>
+    </div>
+    <!-- Aqui é a mensagem de erro de login escondida, onde vamos exibir no momento de validação -->
+    <div id="falhaLogin" class="row">
+      <div class="alert alert-danger">Usuário ou senha inválido.</div>
+    </div>
+
+    <div id="blocoLogin" class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group">
+            <label method="post" action="PHP/administrador.php" class="input-group input-group-addon"><b class="glyphicon glyphicon-user"></b></label>
+            <input autofocus type="text" class="form-control" id="cmpLogin" placeholder="Login">
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group">
+            <label class="input-group input-group-addon"><b class="glyphicon glyphicon-log-in"></b></label>
+            <input type="password" class="form-control" id="cmpSenha" placeholder="Senha">
+          </div>
+        </div>
+      </div>
+
+
+      <br>
+
+      <div class="bottomlogin">
+        <div class="col-md-12 text-right">
+          <button class="btn btn-default" id="btnLogin">Login</button>
+        </div>
+      </div>
+
+    </div>
+    <div><img class="img" src="IMG/oie_transparent (5).png"></div>
+    <div>
+      <p class="miramakers">© 2019 The Miramakers Company, all rights reserved</p>
+    </div>
+  </body>
+
+  </html>
+</center>

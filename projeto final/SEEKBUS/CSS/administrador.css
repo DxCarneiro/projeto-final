@@ -1,0 +1,147 @@
+body {
+    background-image: url(../IMG/fotoeditada.jpg);
+    background-size: 100%; 
+    background-attachment: fixed;   
+  }
+  
+  #blocoLogin {
+      width:450px;
+      margin:35px auto 0 auto;
+      margin-top: 270px;
+      border-radius: 10px;
+  }
+  
+  #falhaLogin {
+      text-align:center;
+      font-weight:bolder;
+      display:none;
+
+  }
+  
+  #sucessoLogin {
+      text-align:center;
+      font-weight:bolder;
+      display:none;
+  }
+
+  .bottomlogin {
+      margin-right: 150px;
+  }
+
+  img {
+      height: 100px;
+      width: 400px;
+      margin-top: -480px;
+  }
+
+  .miramakers{
+    font-family: 'Hind Vadodara', sans-serif;
+    color: white;
+    opacity: 1;
+    text-shadow: 1px 1px 8px black;
+    font-size: 13px;
+    padding-top: 154px;
+    padding-left: 1000px;
+    overflow: hidden;
+}
+
+.administrador{
+   margin-left: 1150px;
+   margin-top: -40px;
+   overflow: hidden;
+ 
+}
+
+.sobrenos {
+   height: 1000px;
+   width: 1000px;
+   border-width: 2px;
+   border-style: solid;
+   border-color:#E8E8E8;
+   box-shadow: 1px 1px 10px black;
+   background-color: #E8E8E8;
+
+}
+
+.texto{
+    color: black;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 20px;
+    
+}
+
+.clearfix:after{
+   content: '.';
+   display: block;
+   clear: both;
+   height: 0;
+   line-height: 0;
+   font-size: 0;
+   visibility: hidden;
+   overflow: hidden;
+}
+.menu,
+.sub-menu {
+   list-style: none;
+   background: rgb(77, 180, 221);
+   opacity: 0.7;
+   
+}
+.sub-menu {
+   background: rgb(77, 180, 221);
+   opacity: 1;
+   
+}
+.menu a {
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   color: #fff;
+   font-family: sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 700;
+   opacity: 0.9;
+   
+  
+}
+.menu li {
+   position: relative;
+
+}
+.menu > li {
+   
+   float: left;
+}
+.menu > li:hover {
+   background: rgb(77, 180, 221);
+}
+.menu li:hover > .sub-menu {
+   display: block;
+}
+.sub-menu {
+   display: none;
+   position: absolute;
+   margin-left: 0px;
+}
+.sub-menu li:hover {
+   background: rgb(77, 180, 221);
+}
+.sub-menu .sub-menu {
+   top: 0;
+   left: 100%;
+}
+.faleconosco {
+   margin-top: -40px;
+   margin-left: 255px;
+}
+
+.sobre {
+   margin-top: -40px;
+   margin-left: 75px;
+}
+
+.equipe {
+   margin-top: -40px;
+   margin-left: 165px;
+}
